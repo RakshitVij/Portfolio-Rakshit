@@ -41,7 +41,7 @@ navbar img:hover {
 }
 
 navbar h3 {
-  color: #FDFFE2;
+  color: hsl(56, 91%, 50%);
   font-family: "Oswald";
   font-size: 1.3vw;
   font-weight: 500;
@@ -55,7 +55,7 @@ navbar ul {
   align-items: center;
   justify-content: center;
   list-style: none;
-  margin-left: 58vw;
+  margin-left: 56vw;
 }
 navbar li {
   color: #FDFFE2;
@@ -71,7 +71,7 @@ navbar li {
 
 navbar li:hover {
   cursor: pointer;
-  color: #83B4FF;
+  color: hsl(56, 91%, 50%);
   scale: 1.1;
 }
 
@@ -109,6 +109,7 @@ navbar li:hover {
   margin-left: 3.5vw;
   position: absolute;
   top: 0px;
+  color: #83B4FF;
 }
 
 .hero-heading h1 {
@@ -119,7 +120,7 @@ navbar li:hover {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "ELSH" 0;
-  color: #83B4FF;
+  color: hsl(56, 91%, 50%);
   letter-spacing: 4vw;
   padding: 0.7vw;
   align-items: center;
