@@ -29,7 +29,7 @@ navbar {
 }
 
 img {
-  height: 90px;
+  height: 80px;
   width: auto;
   transition: all 1s ease-in;
 }
@@ -89,8 +89,9 @@ navbar li:hover {
 }
 
 .hero img {
-  height: 43vw;
+  height: 92vh;
   z-index: 1;
+  filter: drop-shadow(0 0 5px #FDFFE2);
 }
 
 .hero-heading {
