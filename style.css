@@ -39,13 +39,23 @@ navbar img:hover {
   scale: 1.2;
 
 }
+
+navbar h3 {
+  color: #FDFFE2;
+  font-family: "Oswald";
+  font-size: 1.3vw;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
 navbar ul {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
   list-style: none;
-  margin-left: 62vw;
+  margin-left: 58vw;
 }
 navbar li {
   color: #FDFFE2;
