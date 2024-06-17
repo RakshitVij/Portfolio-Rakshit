@@ -136,3 +136,30 @@ navbar li:hover {
     transform: translateY(-8%);
   }
 }
+
+.pagetwo {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.about {
+  height: 70vh;
+  width: 45%;
+  margin: 5vw 4vw;
+  padding: 5vw 5vh;
+  background-color: #83B4FF;
+}
+
+.image {
+  height: 70vh;
+  width: 45%;
+  margin: 5vw 4vw;
+  background-color: hsl(56, 91%, 50%);
+}
+
+.image img {
+  height: 30rem;
+  padding: 3vw 10vh;
+  width: auto;
+}
