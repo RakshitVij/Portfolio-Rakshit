@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #1A2130;
+  background-color: #1a2130;
 }
 
 .pageone {
@@ -37,7 +37,6 @@ img {
 navbar img:hover {
   cursor: pointer;
   scale: 1.2;
-
 }
 
 navbar h3 {
@@ -58,7 +57,7 @@ navbar ul {
   margin-left: 56vw;
 }
 navbar li {
-  color: #FDFFE2;
+  color: #fdffe2;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
@@ -91,7 +90,7 @@ navbar li:hover {
 .hero img {
   height: 92vh;
   z-index: 1;
-  filter: drop-shadow(0 0 5px #FDFFE2);
+  filter: drop-shadow(0 0 5px #fdffe2);
 }
 
 .hero-heading {
@@ -110,7 +109,7 @@ navbar li:hover {
   margin-left: 3.5vw;
   position: absolute;
   top: 0px;
-  color: #83B4FF;
+  color: #83b4ff;
 }
 
 .hero-heading h1 {
@@ -164,7 +163,7 @@ navbar li:hover {
 
 .about p {
   padding: 2vw;
-  color: #83B4FF;
+  color: #83b4ff;
   align-items: center;
   justify-content: center;
   font-family: "Oswald";
@@ -173,16 +172,28 @@ navbar li:hover {
   font-style: normal;
   letter-spacing: 1px;
   z-index: 0;
+  border: 1px solid #fdffe2;
 }
 
 .hero1 {
   display: flex;
-  position: absolute;
-  left: 45vw;
+  position: relative;
+  left: 47vw;
 }
 
 .hero1 img {
-  height: 88vh;
+  height: 86vh;
   z-index: 1;
-  filter: drop-shadow(0 0 5px #FDFFE2);
+  position: absolute;
+  transition: z-index 0.5s;
+  filter: drop-shadow(0 0 5px #fdffe2);
 }
+
+.hero1 img:hover {
+  z-index: 0;
+  cursor: pointer;
+  opacity: 0.2;
+  
+}
+
+
